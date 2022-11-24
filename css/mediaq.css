@@ -1,0 +1,591 @@
+
+/*------------ main section media query ------------*/
+
+@media (min-width:0px) and (max-width:576px)
+{
+    
+    #main
+    {
+        height: 100%;
+        padding-bottom: 80px;
+    }
+    .main-btn
+    {
+        width: 130px;
+        height: 45px;
+    }
+    .main-btn2
+    {
+        width: 130px;
+        height: 45px;
+    }
+    
+    .header
+    {
+        display: block;
+    }
+    .nav ul
+    {
+        padding-top: 20px;
+    }
+    .nav ul li
+    {
+        list-style: none;
+        display:block;
+        margin-top: 15px;
+        text-align: center;
+    
+    }
+    .nav ul li a
+    {
+        padding: 5px 20px;
+       
+    }
+
+    .logo-brand {
+    
+        width: 100%;
+    }
+    
+    .nav
+    {
+        max-height: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        background: #fff;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        transition: all .5s;
+        opacity: 0;
+    }
+    
+    #menubars
+    {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+        z-index: 50;
+        position: absolute;
+        top: 20px;
+    }
+    #crossmenu
+    {
+        font-size: 25px;
+        cursor: pointer;
+        z-index: 50;
+        position: absolute;
+        top: 20px;
+    }
+    .header-nav
+    {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        width: 100%;
+        position: relative;
+        
+    }
+    .header-btn {
+        display: none;
+    }
+    .main-content
+    {
+        color: #fff;
+        text-align: center;
+        margin-top: 80px;
+    }
+    .main-btn
+    {
+        display: block;
+        margin:20px auto;
+    }
+    .main-btn2
+    {
+        display: block;
+        margin: auto;
+    }
+    .main-content h1
+    {
+   
+        font-size: 30px;
+    }
+    .main-content p
+    {
+        padding: 0px 5px;
+    }
+
+
+    .common-head h1
+    {
+        font-size: 35px;
+    }
+    .com-btn2::after
+    {
+        width: 130px;
+        height: 45px;
+    }
+
+
+    .about-info
+    {
+        flex-direction: column;
+    }
+    .about-info .ex-col:nth-child(2)
+    {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .wel-img
+    {
+        margin-bottom: 50px;
+    }
+    .wel-btn
+    {
+        width: 130px;
+        height: 45px;
+    }
+
+    
+    .quality-container
+    {
+        padding-top: 20px;
+    }
+    .qual-img
+    {
+        padding-top: 50px;
+    }
+    .qual-img img
+    {
+        height: 350px;
+    }
+    .adv-btn
+    {
+        width: 130px;
+        height: 45px;
+    }
+
+    .pro-box
+    {
+        margin-bottom: 25px;
+    }
+    .carousel-sec .main-carousel .carousel-cell
+    {
+        width: 100%;
+    }
+    .carousel-btn
+    {
+        width: 130px;
+        height: 45px;
+    }
+
+
+
+    .price-col
+    {
+        margin-bottom: 40px;
+    }
+    .package-list .package-btn
+    {
+        width: 130px;
+        height: 45px;
+    }
+
+    .banner-btn
+    {
+        width: 130px;
+        height: 45px;
+    }
+    
+
+    .tech-sec .main-carousel .carousel-cell
+    {
+        width: 100%;
+    }
+
+
+    .footer-col:nth-child(2)
+    {
+        padding-left:10px;
+    }
+    .footer-col
+    {
+        margin-bottom: 40px;
+    }
+
+
+    /* --------------------+ about page media query +------------- */
+
+    .common-container
+{
+    width: 100%;
+    height: 55vh;
+}
+
+    .common-container .com-container-head h1
+{
+    font-size: 40px;
+    margin-top: 120px;
+}
+
+.about-sec .about-img
+{
+    margin-bottom: 50px;
+}
+
+.about-sec .about-img img
+{
+    width: 100%;
+    height: 350px;
+}
+.about-sec-btn
+{
+    width: 130px;
+    height: 45px;
+}
+
+.about-service-list
+{
+    flex-direction: column;
+}
+.about-list-col:nth-child(2)
+{
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.about-company-sec .row .about-company-info
+{
+    padding: 20px 30px;
+}
+
+
+/* --------------------+ service page media query +------------- */
+
+.service-btn
+{
+    width: 130px;
+    height: 45px;
+}
+
+
+/* --------------------+ product page media query +------------- */
+
+.part-buy
+{
+    width: 130px;
+    height: 45px;
+}
+
+/* --------------------+ blog page media query +------------- */
+
+.blog-btn
+{
+    width: 130px;
+    height: 45px;
+}
+
+
+/* --------------------+ contact page media query +------------- */
+
+.addr-head
+{
+    font-size: 35px;
+}
+.address-container
+{
+    
+    width: 90%;
+    margin-left: 30px;
+}
+
+.addr-icon 
+{
+    width: 40px;
+    height: 40px;
+}
+.addr-icon i
+{
+    font-size: 20px;
+   
+}
+.addr-info
+{
+    margin-left: 20px;
+}
+.addr-info p
+{
+    font-size: 17px;
+    
+}
+
+.fields-group
+{
+    flex-direction: column;
+    margin-bottom:0px;
+}
+.fields-group input
+{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact-btn
+{
+    width: 130px;
+    height: 45px;
+    margin-top: 40px;
+}
+
+.contact-form form
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+}
+
+
+@media (min-width:576px) and (max-width:768px)
+{
+    .header
+    {
+        display: block;
+    }
+    .nav ul li a
+{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 12px;
+}
+    .logo-brand {
+    
+        width: 100%;
+    }
+    
+    .header-nav
+    {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .header-btn {
+        display: none;
+    }
+    .main-content
+    {
+        color: #fff;
+        text-align: center;
+        margin-top: 150px;
+    }
+    .main-content h1
+    {
+   
+        font-size: 40px;
+    }
+
+
+    .common-head h1
+    {
+        font-size: 40px;
+    }
+    .wel-img
+    {
+        margin-bottom: 50px;
+    }
+
+    .quality-container
+    {
+        padding-top: 20px;
+    }
+    .qual-img
+    {
+        padding-top: 50px;
+    }
+
+
+    .pro-box
+    {
+        margin-bottom: 25px;
+    }
+    .carousel-sec .main-carousel .carousel-cell
+    {
+        width: 100%;
+    }
+
+
+    .price-col
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .tech-sec .main-carousel .carousel-cell
+    {
+        width: 100%;
+    }
+
+    .tech-sec .main-carousel .carousel-cell .tech-info
+    {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+
+    .footer-col:nth-child(2)
+    {
+        padding-left:10px;
+    }
+
+    .footer-col
+    {
+        margin-bottom: 40px;
+    }
+
+
+    /* --------------------+ about page media query +------------- */
+    .common-container .com-container-head h1
+{
+    font-size: 50px;
+}
+
+.about-sec .about-img
+{
+    margin-bottom: 50px;
+}
+
+.about-sec .about-img img
+{
+    width: 100%;
+}
+
+
+/* --------------------+ contact page media query +------------- */
+
+.address-container
+{
+    
+    margin-left: 70px;
+}
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .header-btn {
+        display: none;
+    }
+
+    .logo-brand {
+    
+        width: 25%;
+    }
+    .header-nav
+    {
+        width: 75%;
+    }
+    .main-content h1
+    {
+   
+    font-size: 50px;
+    }
+
+
+    .wel-img
+    {
+        margin-bottom: 50px;
+    }
+
+
+    .quality-container
+    {
+        padding-top: 20px;
+    }
+    .qual-img
+    {
+        padding-top: 50px;
+    }
+
+
+    .pro-box:nth-child(3)
+    {
+        margin-top: 25px;
+    }
+    .pro-box:nth-child(4)
+    {
+        margin-top: 25px;
+    }
+    .carousel-sec .main-carousel .carousel-cell
+    {
+        width: 100%;
+    }
+
+
+    .price-col
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .tech-sec .main-carousel .carousel-cell
+    {
+        width: 45%;
+    }
+    
+
+    .footer-col:nth-child(3)
+    {
+        margin-top: 40px;
+    }
+    .footer-col:nth-child(4)
+{
+    padding-left: 80px;
+    margin-top: 40px;
+}
+
+
+
+
+/* --------------------+ about page media query +------------- */
+
+
+.common-container .com-container-head h1
+{
+    font-size: 60px;
+}
+.about-sec .about-img
+{
+    margin-bottom: 50px;
+}
+
+.about-sec .about-img img
+{
+    width: 100%;
+}
+
+
+/* --------------------+ contact page media query +------------- */
+
+.address-container
+{
+    
+    margin-left: 100px;
+}
+
+}
+
+
+@media (min-width:992px) and (max-width:1200px) {
+    .header-btn {
+        display: none;
+    }
+
+
+    .footer-col:nth-child(4)
+    {
+        padding-left:0px;
+    }
+}
+
+/*------------ main section media query ------------*/
+
+

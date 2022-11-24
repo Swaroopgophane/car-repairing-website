@@ -1,0 +1,1189 @@
+
+:root
+{
+    --commoncolor:rgb(220, 14, 31);
+    --iconscolor:rgb(220, 14, 59);
+    --commonbackground:rgb(20, 17, 34);
+}
+
+#main
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#000,rgba(0, 0, 0, 0.421)),url(../images/peter-broomfield-m3m-lnR90uM-unsplash-min.jpg);
+    background-size: cover;
+    
+}
+
+.header
+{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.logo-brand
+{
+    background:var(--commoncolor) ;
+    clip-path: polygon(0% 0%,100% 0%,90% 100%,10% 100%);
+    display: flex;
+   justify-content: center;
+   width: 40%;
+}
+.logo-brand a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.logo-brand img
+{
+    height: 100px;
+    
+}
+.header-nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+.nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    
+    
+}
+#menubars
+{
+    display: none;
+}
+#crossmenu
+{
+    display: none;
+}
+
+.nav ul
+{
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.nav ul li a
+{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.nav ul li a:hover
+{
+    background: #000;
+    color: #fff;
+}
+
+.header-btn .q-btn
+{
+    padding: 10px 15px;
+    border: none;
+    background: var(--commoncolor);
+    color: #fff;
+    border-radius: 10px;
+}
+.header-btn .q-btn:hover
+{
+    background:transparent;
+    border: 1px solid var(--commoncolor);
+    color: #000;
+}
+
+.main-content
+{
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+}
+.main-content h1
+{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.main-buttons
+{
+    margin-top: 20px;
+}
+.com-btn
+{
+    position: relative;
+    z-index: 1;
+    transition: all .5s;
+}
+.com-btn:hover
+{
+    color: #000;
+}
+.com-btn::after
+{
+    content: '';
+    background: #fff;
+    width: 100%;
+    height: 100%;
+   position:absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   transform: scaleX(0);
+   transition: all .5s;
+   border-radius: 10px;
+}
+.com-btn:hover::after
+{
+    transform: scaleX(1);
+    
+}
+
+
+.com-btn2
+{
+    position: relative;
+    z-index: 1;
+    transition: all .5s;
+}
+
+.com-btn2::after
+{
+    content: '';
+    background: #000;
+    width:100%;
+    height:100%;
+   position:absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   transform: scaleX(0);
+   transition: all .5s;
+   border-radius: 10px;
+}
+.com-btn2:hover::after
+{
+    transform: scaleX(1);
+    
+}
+
+.main-btn
+{
+    border: none;
+    background: var(--commoncolor);
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.main-btn2
+{
+    border: none;
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.common-sec-label
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.dash-label
+{
+    color: var(--iconscolor);
+    text-transform: uppercase;
+}
+.dash-sec
+{
+    margin-left: 10px;
+}
+.dash-sec .dash
+{
+    width: 100px;
+    height: 1px;
+    background: var(--iconscolor);
+    display: block;
+    margin-top: 3px;
+}
+.dash-sec .dash:nth-child(2)
+{
+    width: 150px;
+}
+.wel-container
+{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.wel-img img
+{
+    width: 95%;
+    height: 520px;
+    object-fit: cover;
+    border-radius: 10px;
+   
+}
+
+
+.common-head h1
+{
+    font-size: 50px;
+    text-transform: capitalize;
+    
+}
+.about-info
+{
+    display: flex;
+    margin-top: 30px;
+}
+.about-info .ex-col
+{
+    
+    border: 1px solid var(--iconscolor);
+    display: flex;
+    align-items: center;
+    /* width: 250px; */
+    justify-content: center;
+    padding: 10px 40px;
+    
+}
+.about-info .ex-col:nth-child(2)
+{
+    margin-left: 10px;
+}
+.ex-label
+{
+    color:var(--iconscolor);
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.ex-label2
+{
+    font-weight: bold;
+}
+.wel-btn
+{
+    border: none;
+    background: var(--commoncolor);
+    color: #fff;
+    width: 150px;
+    height: 50px; 
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.quality-container
+{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    
+}
+
+.qual-img img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.adv-sec
+{
+    display: flex;
+    margin-top: 30px;
+}
+.adv-col:nth-child(2)
+{
+    padding-left: 70px;
+}
+.adv-group
+{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.adv-group i
+{
+    color:var(--iconscolor);
+    margin-right: 10px;
+    font-size: 25px;
+}
+.adv-group span
+{
+    font-weight: bold;
+}
+.adv-btn
+{
+    border: none;
+    background: var(--commoncolor);
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.product-container
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(#000,rgba(0, 0, 0, 0.421)),url(../images/campbell-3ZUsNJhi_Ik-unsplash-min.jpg);
+    background-size: cover;
+}
+
+.pro-box
+{
+    background: #fff;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 10px;
+    line-height: 35px;
+   
+}
+
+.pro-box i
+{
+    color: var(--commoncolor);
+    font-size: 35px;
+    transition: all .5s;
+    margin-bottom: 10px;
+   
+}
+.pro-box p
+{
+    font-weight: bold;
+}
+.pro-box:hover i
+{
+    transform: rotateY(360deg);
+}
+
+.carousel-sec
+{
+    margin-top: 100px;
+}
+
+
+.carousel-sec .main-carousel .carousel-cell
+{
+    width: 30%;
+    background: linear-gradient(rgba(255, 255, 255, 0.59),rgba(0, 0, 0, 0.442));
+    margin-right: 45px;
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
+ .carousel-img img
+{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.carousel-info
+{
+    margin-top: 20px;
+}
+.carousel-btn
+{
+    border: none;
+    background: var(--commoncolor);
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+
+.price-container
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.price-container .common-sec-label
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.price-container .common-head
+{
+    text-align: center;
+}
+.pricing-sec
+{
+    padding-top: 50px;
+
+}
+.pricing-sec .price-head
+{
+    background: var(--commonbackground);
+    color: #fff;
+    padding: 30px 50px;
+    
+}
+.price-label h3
+{
+    font-weight: bold;
+}
+
+
+.package-list
+{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    background: #eee;
+}
+.package-list .list-col
+{
+    margin-bottom: 20px;
+}
+.package-list .package-btn
+{
+    border: none;
+    background: var(--commonbackground);
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;  
+}
+.package-list .list-col i
+{
+    color: var(--iconscolor);
+    margin-right: 10px;
+}
+
+.pricing-sec .price-col:hover .price-head
+{
+    background: var(--commoncolor);
+}
+.pricing-sec .price-col:hover .package-btn
+{
+    background: var(--commoncolor);
+}
+
+
+.banner-container
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.668),rgba(0, 0, 0, 0.421)),url(../images/pieter-benjamin-nijs-1q6i3IU8lGo-unsplash-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner-sec
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+.banner-sec h1
+{
+    font-weight: bold;
+}
+
+ .banner-btn
+{
+    border: none;
+    background: var(--commoncolor);
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 10px;  
+}
+
+
+.tech-container
+{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.tech-container .common-sec-label
+{
+    display: flex;
+    justify-content: center;
+}
+.tech-sec
+{
+    padding-top: 60px;
+}
+.tech-container .common-head h1
+{
+    text-align: center;
+}
+
+.tech-sec .main-carousel .carousel-cell
+{
+    width: 30%;
+    margin-right: 45px;
+    position: relative;
+}
+.tech-sec .main-carousel .carousel-cell img
+{
+    width: 100%;
+}
+.tech-sec .main-carousel .carousel-cell .tech-info
+{
+    background: var(--commoncolor);
+    color: #fff;
+    position: absolute;
+    bottom: -150px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    transition: all .4s;
+}
+.tech-sec .main-carousel .carousel-cell:hover .tech-info
+{
+    bottom: 0;
+}
+
+
+.footer
+{
+    background: var(--commonbackground);
+    margin-top: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+.footer-col:nth-child(2)
+{
+    padding-left: 80px;
+}
+
+.footer-col h3,h5
+{
+    text-transform: capitalize;
+}
+.footer-col h3
+{
+    margin-bottom: 30px;
+}
+.footer-col .f-logo img
+{
+    width: 100px;
+    margin-bottom: 30px;
+}
+.footer-col p
+{
+    color: rgb(151, 143, 143);
+}
+.footer-links a
+{
+    text-decoration: none;
+    color: rgb(151, 143, 143);
+}
+.footer-links a:hover
+{
+    color: var(--iconscolor);
+    text-decoration: none;
+}
+.time-col
+{
+    margin-bottom: 15px;
+}
+.time-col .day
+{
+    
+    font-weight: bold;
+    width: 60px;
+    display: inline-block;
+}
+ 
+.time-col span:nth-child(2)
+{
+    color: rgb(151, 143, 143); 
+}
+.f-contact-col
+{
+    margin-bottom: 20px;
+}
+.f-contact-col i
+{
+    /* width: 30px; */
+    color:#fff;
+    background: var(--iconscolor);
+    padding: 5px;
+    margin-right: 20px;
+}
+.f-contact-col p
+{
+    color: #fff;
+}
+.f-contact-col span
+{
+    color: rgb(151, 143, 143); 
+}
+
+
+/* --------------------+ about page style +------------- */
+
+.common-container
+{
+    width: 100%;
+    height: 65vh;
+}
+.about-page
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.668),rgba(0, 0, 0, 0.421)),url(../images/gabriel-gurrola-u6BPMXgURuI-unsplash-min.jpg);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.common-container .com-container-head h1
+{
+    text-align: center;
+    color: #fff;
+    margin-top: 150px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+.about-container
+{
+    padding-top: 100px;
+}
+
+.about-sec .about-img img
+{
+    width: 95%;
+   height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.about-service-list
+{
+    display: flex;
+}
+.about-list-col:nth-child(2)
+{
+    margin-left: 50px;
+}
+.about-l-group
+{
+    margin-top: 20px;
+}
+.about-l-group i
+{
+    color:var(--commoncolor);
+    margin-right: 10px;
+    font-size: 18px;
+}
+.about-l-group span
+{
+    font-weight: bold;
+}
+
+.about-sec-btn
+{
+    border: none;
+    background: var(--commoncolor);
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 10px;  
+}
+
+
+
+.about-company
+{
+    padding-top: 100px;
+}
+.about-company .container-fluid
+{
+    padding-right: calc(var(--bs-gutter-x) * .0);
+    padding-left: calc(var(--bs-gutter-x) * .0);
+}
+.about-company-sec .about-company-info
+{
+    background: var(--commonbackground);
+    
+   
+}
+.about-company-sec .common-head h1
+{
+    color: #fff;
+}
+.about-company-sec .row *
+{
+    padding-right: calc(var(--bs-gutter-x) * .0);
+    padding-left: calc(var(--bs-gutter-x) * .0);
+}
+.about-company-sec .row .about-company-info
+{
+    padding: 50px 55px;
+}
+.about-company-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.servie-box
+{
+    margin-top: 50px;
+}
+.service-box-sec
+{
+    display: flex;
+    align-items: center;
+}
+.service-box-col h3
+{
+    color: #fff;
+    font-weight: bold;
+}
+.service-box-col p
+{
+    color: rgb(151, 143, 143); 
+}
+.service-box-col .index
+{
+    color:var(--commoncolor);
+    background: rgb(54, 52, 52);
+    padding: 10px 12px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.service-box-col:nth-child(2)
+{
+    margin-left: 40px;
+    /* padding-right: 20px; */
+}
+.service-box-sec:hover .index
+{
+    background: #fff;
+}
+
+
+
+
+
+
+
+/* --------------------+ services page style +------------- */
+
+
+.service-container
+{
+    padding-top: 100px;
+}
+.service-container .common-sec-label
+{
+    display: flex;
+    justify-content: center;
+}
+.service-container .common-head
+{
+    text-align: center;
+}
+.service-section
+{
+    padding-top: 60px;
+}
+
+.services-page
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.668),rgba(0, 0, 0, 0.421)),url(../images/paul-kansonkho-9xjHQvdMi4c-unsplash-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.services-col
+{
+    margin-bottom: 70px;
+    background: var(--commonbackground);
+}
+.services-col img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.services-col .serv-info
+{
+   padding: 30px 25px;
+   
+}
+
+ .service-btn
+{
+     border: none;
+    background: var(--commoncolor);
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.serv-info h4
+{
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+   
+}
+.serv-info p
+{
+    color: rgb(151, 143, 143); 
+}
+
+
+
+
+/* --------------------+ products page style +------------- */
+
+
+.parts-container
+{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.parts-container .common-sec-label
+{
+    display: flex;
+    justify-content: center;
+}
+.parts-container .common-head
+{
+    text-align: center;
+}
+
+
+.product-page
+{
+     background: linear-gradient(rgba(0, 0, 0, 0.668),rgba(0, 0, 0, 0.421)),url(../images/automobile-g598b8fd0d_1920-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.parts-section
+{
+   padding-top: 60px;
+}
+
+
+.parts-content
+{
+   
+    background: #eee;
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+.parts-content img
+{
+   height: 200px;
+   
+}
+.parts-info
+{
+    
+    margin-top: 15px;
+    padding: 15px 0px;
+    background: #fff;
+  
+}
+.part-rating i
+{
+    color: rgb(215, 181, 14);
+}
+.parts-info h4
+{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.new-price
+{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.old-price
+{
+    font-size: 20px;
+    text-decoration: line-through;
+    color: rgb(93, 86, 86);
+}
+.part-buy
+{
+    border: none;
+    background: var(--commoncolor);
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.parts-nav 
+{
+   display: flex;
+   justify-content: center;
+   margin-top: 70px;
+}
+.parts-nav nav ul li a
+{
+    padding: 12px;
+}
+
+/* --------------------+ Blog page style +------------- */
+
+.blog-page
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.668),rgba(0, 0, 0, 0.421)),url(../images/marc-kleen-h8UQV31X5AI-unsplash-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.blog-container
+{
+    padding-top: 100px;
+}
+
+
+.blog-container .common-sec-label
+{
+    display: flex;
+    justify-content: center;
+}
+.blog-container .common-head
+{
+    text-align: center;
+}
+
+.blog-inner img
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.blog-section
+{
+    padding-top: 60px;
+}
+
+.blog-info h4
+{
+    font-weight: bold;
+}
+.blog-info
+{
+    padding: 20px 10px;
+}
+.blog-btn
+{
+    border: none;
+    background: var(--commonbackground);
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.blog-inner
+{
+    margin-bottom: 50px;
+}
+
+.blog-inner:hover .blog-btn
+{
+    background: var(--commoncolor);
+}
+
+.blog-date
+{
+    background: var(--commonbackground);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.blog-date h5
+{
+    font-weight: bold;
+}
+
+.blog-inner:hover .blog-date
+{
+    background: var(--commoncolor);
+}
+
+
+
+/* --------------------+ contact page style +------------- */
+
+.contact-page
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.668),rgba(0, 0, 0, 0.421)),url(../images/chuttersnap-gts_Eh4g1lk-unsplash-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-container
+{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.contact-container .common-sec-label
+{
+    display: flex;
+    justify-content: center;
+}
+.contact-container .common-head
+{
+    text-align: center;
+}
+
+.contact-section
+{
+    padding-top: 60px;
+}
+
+.contact-form form
+{
+   
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.contact-img
+{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.668),rgba(0, 0, 0, 0.421)),url(../images/pieter-benjamin-nijs-1q6i3IU8lGo-unsplash-min.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+}
+
+
+
+.fields-group
+{
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 40px;
+}
+.fields-group input
+{
+    width: 49%;
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #eee;
+
+}
+.fields-group input:focus
+{
+    outline: none;
+    box-shadow: rgba(14, 43, 209, 0.421)0px 2px 4px 2px;
+}
+.fields-group textarea
+{
+    width: 100%;
+    resize: none;
+    padding-left: 15px;
+    padding-top: 10px;
+    outline: none;
+    border: none;
+    background: #eee;
+}
+.fields-group textarea:focus
+{
+    box-shadow: rgba(14, 43, 209, 0.421)0px 2px 4px 2px;
+}
+.contact-btn
+{
+    border: none;
+    background: var(--commoncolor);
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+
+.address-container
+{
+    color: #fff;
+    width: 60%;
+   margin-left: 50px;
+    
+}
+.addr-head
+{
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.address-col
+{
+    display: flex;
+   margin-bottom: 30px;
+}
+.addr-icon 
+{
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.addr-icon i
+{
+    font-size: 30px;
+    color: var(--commoncolor);
+}
+.addr-info
+{
+    margin-left: 40px;
+}
+.addr-info h3
+{
+    font-weight: 600;
+}
+
+.addr-info p
+{
+    font-size: 18px;
+}
+
+.contact-section .row > *
+{
+    padding-right: calc(var(--bs-gutter-x) * .0);
+    padding-left: calc(var(--bs-gutter-x) * .0);
+}
