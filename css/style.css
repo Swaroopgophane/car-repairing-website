@@ -642,9 +642,9 @@
 }
 .about-page
 {
-    background: linear-gradient(rgba(0, 0, 0, 0.668),rgba(0, 0, 0, 0.421)),url(../images/gabriel-gurrola-u6BPMXgURuI-unsplash-min.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.668),rgba(0, 0, 0, 0.421)),url(../images/alistair-smith-fxliDZFt-qY-unsplash-min.jpg);
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
 }
 
 .common-container .com-container-head h1
@@ -953,7 +953,7 @@
 
 .blog-page
 {
-    background: linear-gradient(rgba(0, 0, 0, 0.668),rgba(0, 0, 0, 0.421)),url(../images/marc-kleen-h8UQV31X5AI-unsplash-min.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.668),rgba(0, 0, 0, 0.421)),url(../images/hakon-sataoen-yQ9mZzBdDAM-unsplash-min.jpg);
     background-size: cover;
     background-position: center;
 }
