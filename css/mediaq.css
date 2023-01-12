@@ -9,6 +9,10 @@
         height: 100%;
         padding-bottom: 80px;
     }
+    .main-buttons a
+    {
+        text-decoration: none;
+    }
     .main-btn
     {
         width: 130px;
